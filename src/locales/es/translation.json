@@ -1,0 +1,21 @@
+{
+    "languages": {
+        "en": "Inglés",
+        "es": "Castellano",
+        "fr": "Francés",
+        "de": "Alemán",
+        "it": "Italiano"
+    },
+
+    "navbar": {
+        "home": "Principal",
+        "about": "Sobre mí",
+        "contact": "Contacto",
+        "work": "Trabajo",
+        "experience": "Experiencia"
+    },
+    
+    "footer": {
+        
+    }
+}
