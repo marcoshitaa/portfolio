@@ -29,7 +29,7 @@ const Navbar = () => {
   
   const socialLinks = [
     { name: 'LinkedIn', to: 'https://es.linkedin.com/in/marcos-hita-335756193', icon: <FaLinkedin size={30} />, color: 'bg-[#0077B5]' },
-    { name: 'GitHub', to: '', icon: <FaGithub size={30} />, color: 'bg-[#333]' },
+    { name: 'GitHub', to: 'https://github.com/marcoshitaa', icon: <FaGithub size={30} />, color: 'bg-[#333]' },
   ];
 
   const renderMenuItems = (items) => {

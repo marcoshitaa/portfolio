@@ -62,7 +62,7 @@ const Timeline = () => {
 
   return (
     <div className="w-full py-12 bg-[#0a192f]" name="experience" id="experience">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mr-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
         
         {/* Experience Section */}
         <div className="relative">
