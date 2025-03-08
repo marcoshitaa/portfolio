@@ -14,9 +14,9 @@
         "experience": "Experience"
     },
     "home": {
-        "title": "Hi! I'm Marcos, IT Tech Lead at Optima Retail",
+        "title": "Hi! I'm Marcos, Tech Lead - Project Manager at Optima Retail",
         "description": "This is the home page",
-        "about-me": "About Me"
+        "about-me": "Know more about Me"
     },
     "experience": {
         "title": "Experience",
@@ -28,8 +28,8 @@
 
         },
         "exp2": {
-            "title": "IT Tech Lead - Optima Retail",
-            "timeRange": "September 2024 - January 2025",
+            "title": "Tech Lead - Optima Retail",
+            "timeRange": "September 2024 - December 2024",
             "description": "This is the experience 2"
         },
         "exp3": {
