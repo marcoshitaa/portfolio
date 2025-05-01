@@ -20,7 +20,6 @@ const LanguageSelector = () => {
         i18n.changeLanguage(e);
         setSelectedLanguage(e);
         setIsOpen(false);
-        console.log(e);
     };
 
     const renderLanguageOptions = (items) => {
