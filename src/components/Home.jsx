@@ -1,6 +1,6 @@
 // Import required components and assets
 import React from 'react';
-import me from '../assets/foto2.png'; // Your profile photo
+import me from '../assets/foto3.png'; // Your profile photo
 import { Link } from "react-scroll"; // For smooth scrolling
 import { useTranslation } from 'react-i18next';
 

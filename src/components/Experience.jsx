@@ -41,6 +41,11 @@ const timelineData = {
       timeRange: "experience.exp4.timeRange",
       description: "experience.exp4.description",
     },
+    {
+      title: "experience.exp5.title",
+      timeRange: "experience.exp5.timeRange",
+      description: "experience.exp5.description",
+    },
   ],
   
 };
@@ -51,7 +56,7 @@ const TimelineCard = ({ timeRange, title, description }) => (
     <div className="shadow-md rounded-md p-6 border border-white-300">
       <p className="text-sm text-white">{timeRange}</p>
       <h3 className="text-lg font-bold text-white">{title}</h3>
-      <p className="text-white">{description}</p>
+      {/* <p className="text-white">{description}</p> */}
     </div>
   </div>
 );
