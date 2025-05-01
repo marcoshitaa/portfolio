@@ -80,7 +80,7 @@ const Footer = () => {
       {/* Divider and Copyright */}
       <div className="mt-10 border-t border-gray-600 pt-5 text-center">
         <p className="text-sm">
-          © {new Date().getFullYear()} <span className="text-green-400">Your Name</span>. All Rights Reserved.
+          © {new Date().getFullYear()} <span className="text-green-400">Marcos Hita</span>. All Rights Reserved.
         </p>
       </div>
     </footer>
