@@ -79,7 +79,7 @@ const Timeline = () => {
             {timelineData.experience.map((item, index) => (
               <div key={index} className="relative pl-14">
                 {/* Dot */}
-                <div className="absolute left-6 top-6 w-4 h-4 bg-green-500 rounded-full border-4 border-white"></div>
+                <div className="absolute left-6 top-6 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
                 {/* Card */}
                 <TimelineCard
                   timeRange={t(item.timeRange)}
@@ -101,7 +101,7 @@ const Timeline = () => {
             {timelineData.education.map((item, index) => (
               <div key={index} className="relative pl-14">
                 {/* Dot */}
-                <div className="absolute left-6 top-6 w-4 h-4 bg-green-500 rounded-full border-4 border-white"></div>
+                <div className="absolute left-6 top-5 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
                 {/* Card */}
                 <TimelineCard
                   timeRange={t(item.timeRange)}
