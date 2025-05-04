@@ -8,7 +8,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div name="home" className="h-screen w-full bg-[#0a192f]">
+    <div name="home" className="h-screen w-full bg-[#0a192f] pt-10">
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4 gap-y-10 md:gap-x-10">
         {/* Left side - Text */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
