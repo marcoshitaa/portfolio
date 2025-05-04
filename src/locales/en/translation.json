@@ -89,6 +89,21 @@
         }
     },
     "footer": {
-        
+        "headers": {
+            "aboutMe": "About Me",
+            "quickLinks": "Quick Links",
+            "connect": "Connect with Me"
+        },
+        "content": {
+            "aboutMe": "I'm a passionate developer focused on building visually stunning and functional web applications. Let's create something amazing together!",
+            "quickLinks": {
+                "": ""
+            },
+            "connect": "Let’s get social! Follow me on:"
+        },
+        "copyright": {
+            "name": "Marcos Hita",
+            "rights": ". All Rights Reserved."
+        }
     }
 }
