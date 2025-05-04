@@ -11,7 +11,7 @@ const LanguageSelector = () => {
     const {t} = useTranslation();
 
     const languages = [
-        { code: "de", name: t("languages.de"), flag: "DE" },
+        // { code: "de", name: t("languages.de"), flag: "DE" },
         { code: "en", name: t("languages.en"), flag: "GB" },
         { code: "es", name: t("languages.es"), flag: "ES" },
     ];

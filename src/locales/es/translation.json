@@ -1,94 +1,106 @@
 {
     "languages": {
-        "en": "English",
-        "es": "Spanish",
-        "fr": "French",
-        "de": "German",
-        "it": "Italian"
+      "en": "Inglés",
+      "es": "Español",
+      "fr": "Francés",
+      "de": "Alemán",
+      "it": "Italiano"
     },
     "navbar": {
-        "home": "Home",
-        "about": "About",
-        "contact": "Contact",
-        "work": "Work",
-        "experience": "Experience"
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "contact": "Contacto",
+      "work": "Proyectos",
+      "experience": "Experiencia"
     },
     "home": {
-        "title": "Hi! I'm Marcos, Tech Lead at Optima Retail",
-        "description": "This is the home page",
-        "about-me": "Know more about Me"
+      "title": "¡Hola! Soy Marcos, Tech Lead en Optima Retail",
+      "description": "Esta es la página de inicio",
+      "about-me": "Conóceme mejor"
     },
     "experience": {
-        "title": "Experience",
-        "description": "This is the experience page",
-        "exp1": {
-            "title": "IT Project Manager - Optima Retail",
-            "timeRange": "January 2025 - Present",
-            "description": "This is the experience 1"
-
-        },
-        "exp2": {
-            "title": "Tech Lead - Optima Retail",
-            "timeRange": "September 2024 - December 2024",
-            "description": "This is the experience 2"
-        },
-        "exp3": {
-            "title": "Software Developer - Optima Retail",
-            "timeRange": "June 2023 - September 2024",
-            "description": "This is the experience 2"
-        },
-        "exp4": {
-            "title": "PHP Laravel Developer - Abalit Technologies",
-            "timeRange": "January 2023 - May 2023",
-            "description": "This is the experience 2"
-        },
-        "exp5": {
-            "title": "PHP BackEnd Developer - Klai Agency",
-            "timeRange": "October 2021 - March 2022",
-            "description": "This is the experience 2"
-        }
+      "title": "Experiencia",
+      "description": "Esta es la sección de experiencia",
+      "exp1": {
+        "title": "Jefe de Proyecto IT - Optima Retail",
+        "timeRange": "Enero 2025 - Presente",
+        "description": "Esta es la experiencia 1"
+      },
+      "exp2": {
+        "title": "Tech Lead - Optima Retail",
+        "timeRange": "Septiembre 2024 - Diciembre 2024",
+        "description": "Esta es la experiencia 2"
+      },
+      "exp3": {
+        "title": "Desarrollador de Software - Optima Retail",
+        "timeRange": "Junio 2023 - Septiembre 2024",
+        "description": "Esta es la experiencia 3"
+      },
+      "exp4": {
+        "title": "Desarrollador PHP Laravel - Abalit Technologies",
+        "timeRange": "Enero 2023 - Mayo 2023",
+        "description": "Esta es la experiencia 4"
+      },
+      "exp5": {
+        "title": "Desarrollador BackEnd PHP - Klai Agency",
+        "timeRange": "Octubre 2021 - Marzo 2022",
+        "description": "Esta es la experiencia 5"
+      }
     },
     "education": {
-        "title": "Education",
-        "description": "This is the education page",
-        "ed1": {
-            "title": "Multiplatform App Development (DAM) - La Salle Gracia",
-            "timeRange": "September 2022 - May 2023",
-            "description": "This is the experience 1"
-
-        },
-        "ed2": {
-            "title": "Web App Development (DAW) - La Salle Gracia",
-            "timeRange": "September 2020 - May 2022",
-            "description": "This is the experience 1"
-
-        },
-        "ed3": {
-            "title": "Social Bachelor - IPM",
-            "timeRange": "September 2018 - June 2020",
-            "description": "This is the experience 1"
-
-        }
+      "title": "Educación",
+      "description": "Esta es la sección de educación",
+      "ed1": {
+        "title": "Desarrollo de Aplicaciones Multiplataforma (DAM) - La Salle Gracia",
+        "timeRange": "Septiembre 2022 - Mayo 2023",
+        "description": "Esta es la educación 1"
+      },
+      "ed2": {
+        "title": "Desarrollo de Aplicaciones Web (DAW) - La Salle Gracia",
+        "timeRange": "Septiembre 2020 - Mayo 2022",
+        "description": "Esta es la educación 2"
+      },
+      "ed3": {
+        "title": "Bachillerato Social - IPM",
+        "timeRange": "Septiembre 2018 - Junio 2020",
+        "description": "Esta es la educación 3"
+      }
     },
     "work": {
-        "title": "Work",
-        "description": "This is the work page",
-        "work1": {
-            "title": "Partyum",
-            "description": "Partyum is coming soon ..."
-        },
-        "work2": {
-            "title": "Abalit Technologies",
-            "timeRange": "January 2023 - May 2023",
-            "description": "This is the work 2"
-        },
-        "work3": {
-            "title": "Klai Agency",
-            "timeRange": "October 2021 - March 2022",
-            "description": "This is the work 3"
-        }
+      "title": "Proyectos",
+      "description": "Esta es la sección de proyectos",
+      "work1": {
+        "title": "Partyum",
+        "description": "Partyum llegará pronto..."
+      },
+      "work2": {
+        "title": "Abalit Technologies",
+        "timeRange": "Enero 2023 - Mayo 2023",
+        "description": "Este es el proyecto 2"
+      },
+      "work3": {
+        "title": "Klai Agency",
+        "timeRange": "Octubre 2021 - Marzo 2022",
+        "description": "Este es el proyecto 3"
+      }
     },
     "footer": {
-        
+      "headers": {
+        "aboutMe": "Sobre mí",
+        "quickLinks": "Enlaces rápidos",
+        "connect": "Conecta conmigo"
+      },
+      "content": {
+        "aboutMe": "Soy un desarrollador apasionado enfocado en construir aplicaciones web visualmente atractivas y funcionales. ¡Creamos algo increíble juntos!",
+        "quickLinks": {
+          "": ""
+        },
+        "connect": "¡Hablemos! Sígueme en:"
+      },
+      "copyright": {
+        "name": "Marcos Hita",
+        "rights": ". Todos los derechos reservados."
+      }
     }
-}
+  }
+  
