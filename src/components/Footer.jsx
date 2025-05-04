@@ -50,7 +50,7 @@ const Footer = () => {
           <p className="text-sm mb-4">Let’s get social! Follow me on:</p>
           <div className="flex space-x-5">
           
-          <a href="https://github.com/">GitHub</a>
+          {/* <a href="https://github.com/">GitHub</a> */}
 
             <a
               href="https://linkedin.com/"
