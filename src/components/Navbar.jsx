@@ -34,7 +34,7 @@ const Navbar = () => {
 
   const renderMenuItems = (items) => {
     return items.map((item, index) => (
-      <li key={index}>
+      <li key={index} className = "cursor-pointer">
         <Link to={item.to} smooth={true} duration={500}>
           {item.name}
         </Link>
