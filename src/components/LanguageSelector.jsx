@@ -42,7 +42,7 @@ const LanguageSelector = () => {
             </button>
 
             {isOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-slate-800 text-white rounded-lg shadow-lg">
+                <div className="absolute top-full right-0 mt-2 w-48 bg-slate-800 text-white rounded-lg shadow-lg">
                     <div className="py-2">
                         {renderLanguageOptions(languages)}
                     </div>

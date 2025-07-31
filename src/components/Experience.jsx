@@ -84,8 +84,10 @@ const TimelineCard = ({ timeRange, title, description, onClick, index }) => (
 
 
 const Modal = ({ isOpen, onClose, title, description, timeRange }) => {
-  if (!isOpen) return null;
+  
+  const { t } = useTranslation();
 
+  if (!isOpen) return null;
   return (
     <div
       className="fixed inset-0 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center z-50 px-4"
@@ -115,7 +117,7 @@ const Modal = ({ isOpen, onClose, title, description, timeRange }) => {
         
         {/* Content */}
         <div className="p-6">
-          <p className="text-slate-300 leading-relaxed mb-6">
+          <p className="text-slate-300 leading-relaxed mb-6 whitespace-pre-line">
             {description}
           </p>
           <button
@@ -155,10 +157,10 @@ const Timeline = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            Mi <span className="text-blue-400">Trayectoria</span>
+            {t("experience.my")} <span className="text-blue-400">{t("experience.career")}</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Un recorrido por mi formación académica y experiencia profesional
+            {t("experience.description")}
           </p>
         </div>
 
@@ -188,7 +190,6 @@ const Timeline = () => {
                   <TimelineCard
                     timeRange={t(item.timeRange)}
                     title={t(item.title)}
-                    description={t(item.description)}
                     onClick={() => openModal(t(item.title), t(item.description), t(item.timeRange))}
                     index={index}
                   />
@@ -222,8 +223,7 @@ const Timeline = () => {
                   <TimelineCard
                     timeRange={t(item.timeRange)}
                     title={t(item.title)}
-                    description={t(item.description)}
-                    onClick={() => openModal(t(item.title), t(item.description), t(item.timeRange))}
+                    onClick={() => openModal(t(item.title), "", t(item.timeRange))}
                     index={index}
                   />
                 </div>

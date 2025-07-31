@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
+import LanguageSelector from './LanguageSelector';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { t } = useTranslation();
   
   const handleClick = () => setNav(!nav);
 
@@ -27,10 +31,10 @@ const Navbar = () => {
   }, [nav]);
 
   const menuItems = [
-    { name: 'Inicio', to: 'home' },
-    { name: 'Sobre mí', to: 'about' },
-    { name: 'Proyectos', to: 'work' },
-    { name: 'Experiencia', to: 'experience' }
+    { name: 'navbar.home', to: 'home' },
+    // { name: 'Sobre mí', to: 'about' },
+    // { name: 'Proyectos', to: 'work' },
+    { name: 'navbar.experience', to: 'experience' }
   ];
 
   const socialLinks = [
@@ -44,6 +48,15 @@ const Navbar = () => {
       ),
       hoverColor: 'hover:text-blue-400'
     },
+    // {
+    //   name: 'Email',
+    //   to: 'mailto:marcos.hita@optimaretail.es',
+    //   icon: (
+    //     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+    //       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+    //     </svg>
+    //   ),
+    // }
     // { 
     //   name: 'GitHub', 
     //   to: 'https://github.com/marcoshitaa', 
@@ -59,20 +72,26 @@ const Navbar = () => {
   const renderMenuItems = (items, mobile = false) => {
     return items.map((item, index) => (
       <li key={index} className="cursor-pointer">
-        <button 
+        <Link
+          to={item.to}
+          smooth={true}
+          duration={600}
+          offset={-70} // ajusta según tu navbar
           onClick={mobile ? handleClick : undefined}
+          spy={true}
+          activeClass="text-blue-400"
           className={`
             relative transition-all duration-300 
             ${mobile ? 'text-3xl py-4' : 'text-sm font-medium'}
-            text-slate-300 hover:text-blue-400
+            text-slate-300 hover:text-blue-400 cursor-pointer
             after:content-[''] after:absolute after:w-0 after:h-0.5 
             after:bottom-0 after:left-0 after:bg-blue-400 
             after:transition-all after:duration-300 
             hover:after:w-full
           `}
         >
-          {item.name}
-        </button>
+          {t(item.name)}
+        </Link>
       </li>
     ));
   };
@@ -123,12 +142,7 @@ const Navbar = () => {
           {renderMenuItems(menuItems)}
           
           {/* Language Selector Placeholder */}
-          <li>
-            <select className="bg-slate-800/50 border border-slate-700/50 rounded-lg px-3 py-2 text-sm text-slate-300 focus:outline-none focus:border-blue-400 transition-colors">
-              <option>ES</option>
-              <option>EN</option>
-            </select>
-          </li>
+          <LanguageSelector />
         </ul>
 
         {/* Mobile Hamburger */}
@@ -156,12 +170,7 @@ const Navbar = () => {
             {renderMenuItems(menuItems, true)}
             
             {/* Mobile Language Selector */}
-            <li className="pt-8">
-              <select className="bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-300 focus:outline-none focus:border-blue-400">
-                <option>Español</option>
-                <option>English</option>
-              </select>
-            </li>
+            <LanguageSelector />
           </ul>
         </div>
       </nav>
@@ -172,9 +181,6 @@ const Navbar = () => {
           {renderSocialLinks(socialLinks)}
         </ul>
       </div>
-
-      {/* Decorative line connecting socials */}
-      <div className="hidden lg:block fixed left-11 bottom-32 w-px h-24 bg-gradient-to-t from-slate-600 to-transparent z-40"></div>
     </>
   );
 };

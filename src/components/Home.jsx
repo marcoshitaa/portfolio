@@ -29,15 +29,28 @@ const Home = () => {
             </h2>
           </div>
 
-          {/* Description */}
-          <p className="text-slate-400 text-lg leading-relaxed">
-            {t("home.description")}
-          </p>
-
           {/* CTA Button */}
           <div className="pt-4">
             <button className="group relative px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-blue-600/25 hover:-translate-y-0.5">
+            <Link
+              to="experience"
+              smooth={true}
+              duration={600}
+              offset={-70}
+              spy={true}
+              activeClass="text-blue-400"
+              className={`
+                relative transition-all duration-300 
+                'text-sm font-medium'}
+                text-slate-300 hover:text-blue-400 cursor-pointer
+                after:content-[''] after:absolute after:w-0 after:h-0.5 
+                after:bottom-0 after:left-0 after:bg-blue-400 
+                after:transition-all after:duration-300 
+                hover:after:w-full
+              `}
+            >
               {t("home.about-me")}
+            </Link>
               <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">→</span>
             </button>
           </div>
@@ -46,17 +59,17 @@ const Home = () => {
           <div className="flex gap-6 pt-8">
             <div className="flex flex-col items-center space-y-2">
               <div className="w-12 h-12 bg-slate-800/50 rounded-lg flex items-center justify-center border border-slate-700/50">
-                <span className="text-blue-400 font-bold text-sm">React</span>
+                <span className="text-blue-400 font-bold text-sm">PHP</span>
               </div>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <div className="w-12 h-12 bg-slate-800/50 rounded-lg flex items-center justify-center border border-slate-700/50">
-                <span className="text-blue-400 font-bold text-sm">JS</span>
+                <span className="text-blue-400 font-bold text-sm">Laravel</span>
               </div>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <div className="w-12 h-12 bg-slate-800/50 rounded-lg flex items-center justify-center border border-slate-700/50">
-                <span className="text-blue-400 font-bold text-sm">Node</span>
+                <span className="text-blue-400 font-bold text-sm">MySQL</span>
               </div>
             </div>
           </div>
@@ -82,7 +95,7 @@ const Home = () => {
       </div>
 
       {/* Minimal scroll indicator */}
-      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-col items-center space-y-2 text-slate-600">
           <span className="text-xs uppercase tracking-wider">Scroll</span>
           <div className="w-5 h-5 flex items-center justify-center animate-bounce">
@@ -91,7 +104,7 @@ const Home = () => {
             </svg>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

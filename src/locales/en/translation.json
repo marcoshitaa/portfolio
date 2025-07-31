@@ -1,109 +1,109 @@
 {
     "languages": {
-        "en": "English",
-        "es": "Spanish",
-        "fr": "French",
-        "de": "German",
-        "it": "Italian"
+      "en": "English",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "it": "Italian"
     },
     "navbar": {
-        "home": "Home",
-        "about": "About",
-        "contact": "Contact",
-        "work": "Work",
-        "experience": "Experience"
+      "home": "Home",
+      "about": "About Me",
+      "contact": "Contact",
+      "work": "Projects",
+      "experience": "Experience"
     },
     "home": {
-        "title": "Hi! I'm Marcos, Tech Lead at Optima Retail",
-        "description": "This is the home page",
-        "about-me": "Know more about Me"
+      "title": "Hi! I'm Marcos, Tech Lead at Optima Retail",
+      "description": "This is the home page",
+      "about-me": "Get to know me better",
+      "charge": "Project Manager / Team Lead / Tech Lead"
     },
     "experience": {
-        "title": "Experience",
-        "description": "This is the experience page",
-        "exp1": {
-            "title": "IT Project Manager - Optima Retail",
-            "timeRange": "January 2025 - Present",
-            "description": "This is the experience 1"
-
-        },
-        "exp2": {
-            "title": "Tech Lead - Optima Retail",
-            "timeRange": "September 2024 - December 2024",
-            "description": "This is the experience 2"
-        },
-        "exp3": {
-            "title": "Software Developer - Optima Retail",
-            "timeRange": "June 2023 - September 2024",
-            "description": "This is the experience 2"
-        },
-        "exp4": {
-            "title": "PHP Laravel Developer - Abalit Technologies",
-            "timeRange": "January 2023 - May 2023",
-            "description": "This is the experience 2"
-        },
-        "exp5": {
-            "title": "PHP BackEnd Developer - Klai Agency",
-            "timeRange": "October 2021 - March 2022",
-            "description": "This is the experience 2"
-        }
+      "title": "Professional Experience",
+      "description": "A journey through my academic background and professional experience",
+      "my": "My",
+      "career": "Career",
+      "exp1": {
+        "title": "IT Project Manager - Optima Retail",
+        "timeRange": "January 2025 - Present",
+        "description": "- Managing a team of 6 developers\n - Sprint organization\n - Estimation of development task points\n - Scrum Master\n - Task tracking with JIRA\n- Interaction with internal and external clients (Listening to needs and turning them into tasks)\n - Direct reporting to CEO"
+      },
+      "exp2": {
+        "title": "Tech Lead - Optima Retail",
+        "timeRange": "September 2024 - December 2024",
+        "description": "- Ensuring code quality (SOLID principles)\n - Reviewing pull requests for pre-production environment\n - Technical definition of tasks"
+      },
+      "exp3": {
+        "title": "Software Developer - Optima Retail",
+        "timeRange": "June 2023 - September 2024",
+        "description": "- Designing and implementing custom software for the company\n - APIs with Laravel\n - Frontend with Laravel Livewire 3\n - Creating components with AlpineJS\n - Version control with GIT\n - Using MySQL databases"
+      },
+      "exp4": {
+        "title": "PHP Laravel Developer - Abalit Technologies",
+        "timeRange": "January 2023 - May 2023",
+        "description": "- Developing REST APIs with Laravel for mobile app backend"
+      },
+      "exp5": {
+        "title": "BackEnd PHP Developer - Klai Agency",
+        "timeRange": "October 2021 - March 2022",
+        "description": "- Creating plugins with PHP and JS for WordPress\n- Layout with HTML and CSS\n- Web design with Figma"
+      }
     },
     "education": {
-        "title": "Education",
-        "description": "This is the education page",
-        "ed1": {
-            "title": "Multiplatform App Development (DAM) - La Salle Gracia",
-            "timeRange": "September 2022 - May 2023",
-            "description": "This is the experience 1"
-
-        },
-        "ed2": {
-            "title": "Web App Development (DAW) - La Salle Gracia",
-            "timeRange": "September 2020 - May 2022",
-            "description": "This is the experience 1"
-
-        },
-        "ed3": {
-            "title": "Social Bachelor - IPM",
-            "timeRange": "September 2018 - June 2020",
-            "description": "This is the experience 1"
-
-        }
+      "title": "Education",
+      "description": "This is the education section",
+      "ed1": {
+        "title": "Multiplatform Application Development (DAM) - La Salle Gracia",
+        "timeRange": "September 2022 - May 2023",
+        "description": "This is education 1"
+      },
+      "ed2": {
+        "title": "Web Application Development (DAW) - La Salle Gracia",
+        "timeRange": "September 2020 - May 2022",
+        "description": "This is education 2"
+      },
+      "ed3": {
+        "title": "Social Bachelorship - IPM",
+        "timeRange": "September 2018 - June 2020",
+        "description": "This is education 3"
+      }
     },
     "work": {
-        "title": "Work",
-        "description": "This is the work page",
-        "work1": {
-            "title": "Partyum",
-            "description": "Partyum is coming soon ..."
-        },
-        "work2": {
-            "title": "Abalit Technologies",
-            "timeRange": "January 2023 - May 2023",
-            "description": "This is the work 2"
-        },
-        "work3": {
-            "title": "Klai Agency",
-            "timeRange": "October 2021 - March 2022",
-            "description": "This is the work 3"
-        }
+      "title": "Projects",
+      "description": "This is the projects section",
+      "work1": {
+        "title": "Partyum",
+        "description": "Partyum is coming soon..."
+      },
+      "work2": {
+        "title": "Abalit Technologies",
+        "timeRange": "January 2023 - May 2023",
+        "description": "This is project 2"
+      },
+      "work3": {
+        "title": "Klai Agency",
+        "timeRange": "October 2021 - March 2022",
+        "description": "This is project 3"
+      }
     },
     "footer": {
-        "headers": {
-            "aboutMe": "About Me",
-            "quickLinks": "Quick Links",
-            "connect": "Connect with Me"
+      "headers": {
+        "aboutMe": "About Me",
+        "quickLinks": "Quick Links",
+        "connect": "Connect with Me"
+      },
+      "content": {
+        "aboutMe": "I am a passionate developer focused on building visually appealing and functional web applications. Let's create something amazing together!",
+        "quickLinks": {
+          "": ""
         },
-        "content": {
-            "aboutMe": "I'm a passionate developer focused on building visually stunning and functional web applications. Let's create something amazing together!",
-            "quickLinks": {
-                "": ""
-            },
-            "connect": "Let’s get social! Follow me on:"
-        },
-        "copyright": {
-            "name": "Marcos Hita",
-            "rights": ". All Rights Reserved."
-        }
+        "connect": "Let's talk! Follow me on:"
+      },
+      "copyright": {
+        "name": "Marcos Hita",
+        "rights": ". All rights reserved."
+      }
     }
-}
+  }
+  

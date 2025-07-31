@@ -20,32 +20,34 @@
       "charge": "Project Manager / Team Lead / Tech Lead"
     },
     "experience": {
-      "title": "Experiencia",
-      "description": "Esta es la sección de experiencia",
+      "title": "Experiencia Profesional",
+      "description": "Un recorrido por mi formación académica y experiencia profesional",
+      "my": "Mi",
+      "career": "Trayectoria",
       "exp1": {
         "title": "Jefe de Proyecto IT - Optima Retail",
         "timeRange": "Enero 2025 - Presente",
-        "description": "Esta es la experiencia 1"
+        "description": "- Gestión de un equipo de 6 devs\n - Organización del Sprint\n - Estimación de puntos por tarea de desarrollo\n - Scrum Master\n - Control de tareas con JIRA\n- Relación con cliente interno y externo (Escuchar que necesitan y transformarlo en una tarea)\n - Reporte directo a CEO"
       },
       "exp2": {
         "title": "Tech Lead - Optima Retail",
         "timeRange": "Septiembre 2024 - Diciembre 2024",
-        "description": "Esta es la experiencia 2"
+        "description": "- Asegurar calidad de código (Principios SOLID)\n - Revisión de pull requests al entorno de preproducción\n - Definición técnica de las tareas"
       },
       "exp3": {
         "title": "Desarrollador de Software - Optima Retail",
         "timeRange": "Junio 2023 - Septiembre 2024",
-        "description": "Esta es la experiencia 3"
+        "description": "- Diseño e implementación de un software a medida para la empresa\n - API's con Laravel\n - Frontend con Laravel Livewire 3\n - Creación de componentes con AlpineJS\n - Control de versiones con GIT\n - Uso de BBDD MySql"
       },
       "exp4": {
         "title": "Desarrollador PHP Laravel - Abalit Technologies",
         "timeRange": "Enero 2023 - Mayo 2023",
-        "description": "Esta es la experiencia 4"
+        "description": "- Desarrollo API rest con Laravel para backend de apps moviles"
       },
       "exp5": {
         "title": "Desarrollador BackEnd PHP - Klai Agency",
         "timeRange": "Octubre 2021 - Marzo 2022",
-        "description": "Esta es la experiencia 5"
+        "description": "- Creación de plugins con PHP y JS para Wordpress\n- Maquetación con HTML y CSS\n- Diseño web con Figma"
       }
     },
     "education": {
