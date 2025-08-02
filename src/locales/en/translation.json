@@ -104,6 +104,35 @@
         "name": "Marcos Hita",
         "rights": ". All rights reserved."
       }
+    },
+    "about": {
+      "title": "About Me",
+      "p1": {
+        "1": "Back in high school, my idea was to become a ",
+        "2": "sports journalist.",
+        "3": "I've always been passionate about sports and wanted to share that with people, but I quickly realized I wanted to create my own stories."
+      },
+      "p2": {
+        "1": "I wanted to study a degree in ",
+        "2": "System and Network Administration, ",
+        "3": "but I couldn't get a spot. I ended up in a programming degree and I could've never imagined what was coming next..."
+      },
+      "p3": {
+        "1": "I trained in ",
+        "2": "web and multiplatform development, ",
+        "3": "and from there something clicked in my mind."
+      },
+      "p4": {
+        "1": "I landed ",
+        "2": "my first job ",
+        "3": "as a junior web developer and ever since, I’ve done nothing but grow and learn from coworkers, from managers, and from the bumps and bruises along the way..."
+      },
+      "p5": {
+        "1": "I'm now in a stage where I'm ",
+        "2": "leading ",
+        "3": "a team of developers, and I’m thankful to them for making me realize how much I enjoy organizing, helping, and helping others grow. I don't just want to be a good developer, I want to be a great leader."
+      }
     }
+
   }
   
