@@ -95,7 +95,7 @@ const Home = () => {
       </div>
 
       {/* Minimal scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-col items-center space-y-2 text-slate-600">
           <span className="text-xs uppercase tracking-wider">Scroll</span>
           <div className="w-5 h-5 flex items-center justify-center animate-bounce">
@@ -104,7 +104,7 @@ const Home = () => {
             </svg>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

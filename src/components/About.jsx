@@ -35,7 +35,7 @@ const About = () => {
   };
 
   const RenderParagraph = ({p1, p2, p3}) => (
-    <div className="space-y-8 text-slate-300 text-lg leading-relaxed">
+    <div className="space-y-8 text-slate-300 text-xl leading-relaxed">
       <p className="opacity-90">
        {p1} <span className="text-blue-400 font-semibold">{p2}</span>{p3}
       </p>
@@ -46,7 +46,7 @@ const About = () => {
     <div
       name="about"
       id="about"
-      className="min-h-screen w-full bg-slate-950 relative px-8 py-24"
+      className="min-h-screen w-full overflow-x-hidden bg-slate-950 relative px-4 sm:px-8 py-24"
       style={{ backgroundColor: "#020617" }}
     >
       {/* Sutil grid background */}
@@ -60,13 +60,12 @@ const About = () => {
          {t("about.title")}
         </h2>
       {aboutme.objects.map((item, key) => (
-                <div key={key} className="relative pl-16 mb-6">
+                <div key={key} className="relative px-4 sm:px-6 md:px-8 lg:px-12 mb-6">
                   {/* Timeline Dot */}
                   <RenderParagraph 
                   p1={t(item.one)}
                   p2={t(item.two)}
                   p3={t(item.three)}>
-
                   </RenderParagraph>
                 </div>
               ))}

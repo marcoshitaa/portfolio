@@ -32,7 +32,7 @@ const Navbar = () => {
 
   const menuItems = [
     { name: 'navbar.home', to: 'home' },
-    // { name: 'Sobre mí', to: 'about' },
+    { name: 'Sobre mí', to: 'about' },
     // { name: 'Proyectos', to: 'work' },
     { name: 'navbar.experience', to: 'experience' }
   ];
