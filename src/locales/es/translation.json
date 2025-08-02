@@ -104,6 +104,34 @@
         "name": "Marcos Hita",
         "rights": ". Todos los derechos reservados."
       }
+    },
+    "about": {
+      "title": "Sobre mí",
+      "p1": {
+        "1": "En bachillerato mi idea era acabar siendo ",
+        "2": "periodista deportivo.",
+        "3": "Siempre he sido un apasionado de los deportes y queria poder trasnmitirselo a la gente, pero rápidamente me di cuenta que yo quería construir mis propias historias."
+      },
+       "p2": {
+        "1": "Quise hacer un grado en ",
+        "2": "Administración de sistemas informáticos y redes, ",
+        "3": "pero no conseguí plaza para ello. Acabé haciendo un grado en programación y nunca me hubiera esperado todo lo que vendría después..."
+      },
+       "p3": {
+        "1": "Me formé en ",
+        "2": "desarrollo web y multiplataforma, ",
+        "3": "y a partir de ahí mi mente hizo un click."
+      },
+       "p4": {
+        "1": "Conseguí ",
+        "2": "mi primer trabajo ",
+        "3": "como desarrollador web junior y desde entonces solo he hecho que crecer y aprender, de mis compañeros, de mis jefes, de las ostias que me he ido dando y que me han dado ..."
+      },
+      "p5": {
+        "1": "Me encuentro en una etapa donde estoy ",
+        "2": "liderando ",
+        "3": "a un equipo de programadores, a los que doy las gracias por hacerme ver que me apasiona poder organizar, ayudar y hacer crecer a todo el mundo. No solo quiero ser un buen programador, quiero ser un buen líder."
+      }
     }
   }
   
